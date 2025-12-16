@@ -67,6 +67,8 @@
 #include <unordered_map>
 #include <unordered_set>
 #include <array>
+#include <list>
+#include <algorithm>
 #include <filesystem>
 
 // Database of all named code sections

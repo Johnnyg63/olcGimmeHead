@@ -33,3 +33,5 @@
 /.vs
 /msvc/.vs/olcGimmeHead
 /msvc/olcGimmeHead/x64/Debug
+.DS_Store
+vscode/README.md

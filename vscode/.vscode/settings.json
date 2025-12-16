@@ -1,0 +1,21 @@
+{
+    "files.associations": {
+        "*.h": "cpp",
+        "*.hpp": "cpp",
+        "*.cpp": "cpp",
+        "*.cc": "cpp",
+        "*.cxx": "cpp"
+    },
+    "C_Cpp.default.configurationProvider": "ms-vscode.cpptools",
+    "C_Cpp.default.compilerPath": "/usr/bin/clang++",
+    "C_Cpp.default.cppStandard": "c++20",
+    "C_Cpp.default.intelliSenseMode": "macos-clang-x64",
+    "files.exclude": {
+        "**/build": false,
+        "**/bin": false,
+        "**/*.o": true,
+        "**/.DS_Store": true
+    },
+    "terminal.integrated.cwd": "${workspaceFolder}/vscode",
+    "cmake.sourceDirectory": "${workspaceFolder}/vscode"
+}

@@ -1,0 +1,32 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Debug gimme-head",
+            "type": "cppdbg",
+            "request": "launch",
+            "program": "${workspaceFolder}/vscode/bin/gimme-head",
+            "args": ["${input:templateFile}", "${input:outputFile}"],
+            "stopAtEntry": false,
+            "cwd": "${workspaceFolder}",
+            "environment": [],
+            "externalConsole": false,
+            "MIMode": "lldb",
+            "preLaunchTask": "Build Debug"
+        }
+    ],
+    "inputs": [
+        {
+            "id": "templateFile",
+            "description": "Template file path",
+            "default": "template.h",
+            "type": "promptString"
+        },
+        {
+            "id": "outputFile",
+            "description": "Output file path",
+            "default": "output.h",
+            "type": "promptString"
+        }
+    ]
+}
